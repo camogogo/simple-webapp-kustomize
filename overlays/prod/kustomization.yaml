@@ -5,7 +5,7 @@ namespace: prod
 bases:
   - ../../base
 images:
-  - name: <your-registry/your-image>
+  - name: nginx
     newTag: <prod-tag>
 configMapGenerator:
   - name: app-config
