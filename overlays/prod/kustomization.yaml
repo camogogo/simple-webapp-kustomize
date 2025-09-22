@@ -6,7 +6,7 @@ bases:
   - ../../base
 images:
   - name: nginx
-    newTag: <prod-tag>
+    newTag: 1.27
 configMapGenerator:
   - name: app-config
     behavior: merge
